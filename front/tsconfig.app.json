@@ -15,6 +15,9 @@
     /* Absolute path imports */
     "baseUrl": ".",
     "paths": {
+      "@customTypes/*": [
+        "src/types/*"
+      ],
       "@assets/*": [
         "src/assets/*"
       ],
