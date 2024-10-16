@@ -5,7 +5,7 @@ import { Category } from "@components/ecommerce";
 import { GridList } from "@components/common";
 import { Loading } from "@components/feedback";
 import { TCategory } from "@customTypes/category";
-import { Container } from "react-bootstrap";
+import Heading from "@components/common/Heading/Heading";
 
 const Categories = () => {
   const dispatch = useAppDispatch();
@@ -20,12 +20,15 @@ const Categories = () => {
   }, [dispatch, records]);
 
   return (
-    <Loading status={loading} error={error}>
-      <GridList<TCategory>
-        records={records}
-        renderItem={(record) => <Category {...record} />}
-      />
-    </Loading>
+    <>
+      <Heading>Categories</Heading>
+      <Loading status={loading} error={error}>
+        <GridList<TCategory>
+          records={records}
+          renderItem={(record) => <Category {...record} />}
+        />
+      </Loading>
+    </>
   );
 };
 
