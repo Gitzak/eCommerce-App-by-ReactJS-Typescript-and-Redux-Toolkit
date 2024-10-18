@@ -15,8 +15,17 @@
     /* Absolute path imports */
     "baseUrl": ".",
     "paths": {
-      "@customTypes/*": [
+      "@types/*": [
         "src/types/*"
+      ],
+      "@types": [
+        "src/types/index"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@utils": [
+        "src/utils/index"
       ],
       "@assets/*": [
         "src/assets/*"
@@ -36,6 +45,9 @@
       "@store/*": [
         "src/store/*"
       ],
+      "@store": [
+        "src/store/index"
+      ],
       "@styles/*": [
         "src/styles/*"
       ],
@@ -43,7 +55,7 @@
         "src/layouts/*"
       ],
       "@util/*": [
-        "src/util/*"
+        "src/utils/*"
       ],
       "@services/*": [
         "src/services/*"
