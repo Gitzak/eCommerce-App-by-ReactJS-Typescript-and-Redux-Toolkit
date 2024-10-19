@@ -86,13 +86,18 @@
   "wishlist": [
     {
       "userId": 1,
-      "productId": 9,
+      "productId": 1,
       "id": 1
     },
     {
       "userId": 1,
-      "productId": 5,
+      "productId": 3,
       "id": 2
+    },
+    {
+      "userId": 1,
+      "productId": 5,
+      "id": 3
     }
   ]
 }

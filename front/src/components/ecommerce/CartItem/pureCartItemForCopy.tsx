@@ -16,7 +16,7 @@ const CartItem = () => {
         </div>
         <div className={productInfo}>
           <h2>test</h2>
-          <h3>30 Dhs</h3>
+          <h3>30 EGP</h3>
           <Button
             variant="secondary"
             style={{ color: "white" }}
