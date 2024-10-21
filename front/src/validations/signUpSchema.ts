@@ -6,11 +6,11 @@ const signUpSchema = z
     lastName: z.string().min(1, { message: "Last name is required" }),
     email: z.string().min(1, { message: "Email address is required" }).email(),
     password: z
-      .string()
-      .min(8, { message: "Password must be at least 8 characters longs" })
-      .regex(/.*[!@#$%^&*()_+{}|[\]\\:";'<>?,./].*/, {
-        message: "Password should contain at least 1 special character",
-      }),
+      .string(),
+      // .min(8, { message: "Password must be at least 8 characters longs" })
+      // .regex(/.*[!@#$%^&*()_+{}|[\]\\:";'<>?,./].*/, {
+      //   message: "Password should contain at least 1 special character",
+      // }),
     confirmPassword: z
       .string()
       .min(1, { message: "Confirm Password is required" }),

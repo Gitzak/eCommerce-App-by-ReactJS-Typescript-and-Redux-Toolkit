@@ -85,14 +85,62 @@
   ],
   "wishlist": [
     {
+      "userId": 2,
+      "productId": 1,
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "productId": 2,
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "productId": 4,
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "productId": 5,
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "productId": 9,
+      "id": 6
+    },
+    {
       "userId": 1,
       "productId": 4,
-      "id": 1
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "productId": 2,
+      "id": 8
     }
   ],
   "users": [
     {
-      "email": "zak@gmail.com"
+      "email": "cyxaw@mailinator.com",
+      "password": "$2a$10$SoxAMn3NuR0/1aBAeb7EWuHV3kcfSLupaYXv/2DR4vfB0obgmwIKS",
+      "firstName": "Hiram",
+      "lastName": "Barrera",
+      "id": 1
+    },
+    {
+      "email": "cyxaw2@mailinator.com",
+      "password": "$2a$10$1OXA5EtVMpisUIuuk9iz4.IIVqvG7zkjjxvFr3gjRQyrc2s.Xf5s2",
+      "firstName": "Igor",
+      "lastName": "Middleton",
+      "id": 2
+    },
+    {
+      "email": "wasuwoxy@mailinator.com",
+      "password": "$2a$10$nOZnUInD2ayjzm0KGlTXi.sZKUFc26mz0OigzLIFiprW.IVg3IWpC",
+      "firstName": "Avye",
+      "lastName": "Thompson",
+      "id": 3
     }
   ]
 }
