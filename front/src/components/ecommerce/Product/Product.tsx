@@ -19,8 +19,7 @@ const Product = memo(
     img,
     max,
     quantity,
-    isLiked,
-    isAuthenticated,
+    isLiked
   }: TProduct) => {
     const dispatch = useAppDispatch();
 
@@ -51,16 +50,12 @@ const Product = memo(
     };
 
     const likeToggleHandler = () => {
-      if (isAuthenticated) {
-        if (!isLoading) {
-          setIsLoading(true);
-          dispatch(actLikeToggle(id))
-            .unwrap()
-            .then(() => setIsLoading(false))
-            .catch(() => setIsLoading(false));
-        }
-      } else {
-        setShowModal(true);
+      if (!isLoading) {
+        setIsLoading(true);
+        dispatch(actLikeToggle(id))
+          .unwrap()
+          .then(() => setIsLoading(false))
+          .catch(() => setIsLoading(false));
       }
     };
 

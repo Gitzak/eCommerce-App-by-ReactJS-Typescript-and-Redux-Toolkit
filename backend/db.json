@@ -134,7 +134,18 @@
       "max": 2
     }
   ],
-  "wishlist": [],
+  "wishlist": [
+    {
+      "userId": 1,
+      "productId": 5,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "productId": 4,
+      "id": 2
+    }
+  ],
   "users": [
     {
       "email": "ticeqe@mailinator.com",

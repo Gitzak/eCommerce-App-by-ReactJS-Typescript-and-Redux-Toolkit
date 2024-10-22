@@ -24,7 +24,7 @@ const Header = () => {
     <header>
       <div className={headerContainer}>
         <h1 className={headerLogo}>
-          <span>Our</span> <Badge bg="info">eCom</Badge>
+          <span>Web</span> <Badge bg="dark" className="pb-3">eCommerce</Badge>
         </h1>
         <HeaderLeftBar />
       </div>
