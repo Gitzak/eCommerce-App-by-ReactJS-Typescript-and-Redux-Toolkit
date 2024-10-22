@@ -1,4 +1,4 @@
-
+![Project Screenshot](https://github.com/Gitzak/eCommerce-App-by-ReactJS-Typescript-and-Redux-Toolkit/blob/main/Screenshot.png)
 
 # E-commerce Project App : React JS - TypeScript - Redux Toolkit
 
